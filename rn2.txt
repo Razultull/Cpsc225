@@ -1,0 +1,97 @@
+Page 57-89
+-----------------------------------------
+
+
+[Markup information: 
+
+This is in the form of tags <>
+
+[Structure of an HTML document:
+
+	Head > title
+HTML > 
+	Body > p
+
+[History of HTML:
+
+Initially designed by one person, Tim Berners-Lee in 1990. Was scientifically related, 
+suggested by the CERN research center.
+Several revisions to the initial HTML version would ensue over the years, few of them 
+redundant. 
+XHTML was then introduced, XHTML 1.0, Extensible Hyper-text Markup language. XHTML is
+ semantically identical to HTML.
+Syntactically, XHTML 1.0 is also the same as HTML 4.01 except that XHTML restricts some
+ of HTML's generality ina  few small
+ways. 
+
+There are two types of syntax, Concrete and abstract. 
+
+The abstract syntax of a language defines a language at the level of abstract syntax
+ trees. For HTML and XHTML languages, this
+primarily involves defining what elements can be contained in the tree and what attributes
+ can be associated with each element.
+
+
+the Concrete syntax of a language defines how this tree structure is represented within the
+ language. In the case of XHTML
+and HTMl, this involves a variety of low-level details, such as what charcatcers are used to delimit tags 
+
+
+the primary concrete syntactic restrictions on XHTML include the follwing:
+
+* Omiited tags are nto allowed.
+* All element and attribute names must be lowercased. 
+* All attribute values must be quoted. 
+
+[Document type Declaration:
+
+Every XHTML document must have a document type declaration on the top. 
+
+Eg: <!DOCTYPE html
+
+[White Space 
+
+White space is treated as a word separator. the net affect is that the browser replaces any string of white space characters within 
+character data by a single blank.
+
+[Spacing: pre and br
+
+the pre element is used to override a browser's normal white space processing.
+
+Eg:
+
+<pre>
+use pre (for 'preformatted") to
+	preserve white space and use
+		monospace type.
+(But note that tags such as <br />Still work!)
+</pre>
+
+
+the br element is an example of an empty element. An empty element is one that is not allowed to contain content. That is, it is syntactically illegal
+to write HTML markup such as
+<br>
+Content of the br element
+</br>
+
+
+[the img element is the primary element for including a graphic in the document. 
+
+[Relative URLs:
+
+a string, that is consistent with the URL path syntax, is known as a relative URL; certain other strings are also valid relative URLs.
+Subsequently, every relative URl is shorthand for some abolsute URl. 
+
+[Lists:
+
+there are three types of lists;
+
+*Unordered: A bullet list
+*ordered: A numbered list
+*Definition: A list fo terms and definitions for each.
+
+[Tables:
+
+HTMl provides a fairly sophisticated model for presenting data in tabular form. Columns and rows will automatically size to contain their data, 
+although there are also various options for changing the visual appearance of a table, such as the width of its internal cell-spearating lines and
+external borders. 
